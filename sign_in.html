@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="sign_in.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Job Applicant</a></li>
+            <li><a href="sign_in.html">Sign In</a></li>
+            <li><a href="registration.html">Register</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="sign_in_box">
+            <b><h1>Sign In</h1></b>
+            <form action="login.php" method="post">
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required />
+                    </div>
+                    <div class="form_control">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required />
+                    </div>
+                    <button type="submit">Sign In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
